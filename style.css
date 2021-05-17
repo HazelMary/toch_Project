@@ -1,0 +1,44 @@
+
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ffcc5c, #c1c460, #8eb56e, #69a27b, #588c7e);
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+#container{
+    width: 400px;
+    background-image: linear-gradient(to right top, #ffcc5c, #e1d268, #c5d579, #afd58d, #9fd3a0, #a0ce97, #a1c88f, #a2c387, #b8b567, #d3a353, #ec8b53, #ff6f69);
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+button{
+    width: 50px;
+    height:50px;
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif,capital;
+	font-weight: normal; 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#earth{
+   background-color:#a2836e; 
+}
+
+#water{
+    background-color:#87bdd8; 
+ }
+
+#fire{
+    background-color: #ff7b25; 
+ }
